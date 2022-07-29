@@ -2,10 +2,10 @@ from unicodedata import name
 import cv2
 from cv2 import blur
 import numpy as np
-import imutils
+
 import matplotlib.pyplot as plt
 
-img = cv2.imread("images/cars/car8.jpg")
+img = cv2.imread("cars/car8.jpg")
 img = cv2.resize(img,(500,500))
 
 img_bgr = img
